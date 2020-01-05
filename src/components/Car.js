@@ -22,10 +22,10 @@ export default function Car() {
   };
 
   return (
-    <div>
+    <div className="mt-2 offset-4">
       <h2> Our car is: {checkStatus()} </h2>
       <h2>Kilometers: {countKms} kms</h2>
-      <button
+      <button className ="btn btn-dark mr-3"
         //   para cambiar el estado creamos una funcion flecha anonima que invoque a la funcion que hemos creado antes para cambiar el estado
         //   y le pasamos los argumentos que queramos
         onClick={() => {
@@ -35,6 +35,7 @@ export default function Car() {
         On / Off
       </button>
       <button
+      className="btn btn-dark"
         onClick={() => {
           increaseKms(5);
         }}
