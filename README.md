@@ -1,3 +1,6 @@
+# First practice with react hooks
+Test to see how the states can be changed using hooks. Test based on a car which it can be set on and off and can add kms to the counter.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
